@@ -121,6 +121,7 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            text-decoration: none;
         }
 
         .btn-primary:hover {
@@ -567,7 +568,7 @@
                     <a href="#testimonials" class="nav-link">Testimonials</a>
                 </div>
                 <div class="nav-actions">
-                    <button class="btn-primary">Start Investing</button>
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20start%20investing%20in%20forex%20with%201:5%20returns" class="btn-primary" target="_blank">Start Investing</a>
                 </div>
             </div>
         </nav>
@@ -602,10 +603,10 @@
                     </div>
                 </div>
                 <div class="hero-actions">
-                    <button class="btn-primary">
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20view%20investment%20plans%20for%201:5%20returns" class="btn-primary" target="_blank">
                         <i class="fas fa-chart-line"></i>
                         View Investment Plans
-                    </button>
+                    </a>
                 </div>
             </div>
             
@@ -678,10 +679,10 @@
                             <span style="color: var(--secondary); font-weight: 600;">1:5</span>
                         </div>
                     </div>
-                    <button class="btn-primary" style="width: 100%;">
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20invest%20$25%20in%20the%201:5%20forex%20investment%20plan" class="btn-primary" style="width: 100%; display: block; text-align: center;" target="_blank">
                         <i class="fas fa-check"></i>
                         Invest $25
-                    </button>
+                    </a>
                 </div>
 
                 <div class="investment-card featured">
@@ -706,10 +707,10 @@
                             <span style="color: var(--secondary); font-weight: 600;">1:5</span>
                         </div>
                     </div>
-                    <button class="btn-primary" style="width: 100%; background: var(--accent);">
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20invest%20$30%20in%20the%20MOST%20POPULAR%201:5%20forex%20investment%20plan" class="btn-primary" style="width: 100%; display: block; text-align: center; background: var(--accent);" target="_blank">
                         <i class="fas fa-crown"></i>
                         Invest $30
-                    </button>
+                    </a>
                 </div>
 
                 <div class="investment-card">
@@ -734,10 +735,10 @@
                             <span style="color: var(--secondary); font-weight: 600;">1:5</span>
                         </div>
                     </div>
-                    <button class="btn-primary" style="width: 100%;">
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20invest%20$100%20in%20the%201:5%20forex%20investment%20plan" class="btn-primary" style="width: 100%; display: block; text-align: center;" target="_blank">
                         <i class="fas fa-rocket"></i>
                         Invest $100
-                    </button>
+                    </a>
                 </div>
 
                 <div class="investment-card">
@@ -762,10 +763,10 @@
                             <span style="color: var(--secondary); font-weight: 600;">1:5</span>
                         </div>
                     </div>
-                    <button class="btn-primary" style="width: 100%;">
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20want%20to%20invest%20$200%20in%20the%201:5%20forex%20investment%20plan" class="btn-primary" style="width: 100%; display: block; text-align: center;" target="_blank">
                         <i class="fas fa-gem"></i>
                         Invest $200
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -952,10 +953,10 @@
                 <h2>Ready for 1:5 Returns?</h2>
                 <p>Start with as little as $25 and get $125 back in 24 hours</p>
             </div>
-            <button class="btn-primary" style="margin: 0 auto; display: block;">
+            <a href="https://wa.me/254739770142?text=Hello!%20I'm%20ready%20to%20start%20investing%20with%201:5%20returns" class="btn-primary" style="margin: 0 auto; display: block; width: fit-content;" target="_blank">
                 <i class="fas fa-rocket"></i>
                 Start Investing Now
-            </button>
+            </a>
             <div style="margin-top: 2rem; color: rgba(255,255,255,0.8);">
                 <i class="fas fa-shield-alt"></i> Secure Investments • 1:5 Returns • Professional Trading
             </div>
@@ -985,7 +986,7 @@
                     <a href="#success">Success Stories</a>
                     <a href="#testimonials">Investor Reviews</a>
                     <a href="#education">Learn Forex</a>
-                    <a href="#">Contact Support</a>
+                    <a href="https://wa.me/254739770142?text=Hello!%20I%20need%20support%20with%20forex%20investment" target="_blank">Contact Support</a>
                 </div>
                 <div class="footer-section">
                     <h4>Legal</h4>
@@ -1003,13 +1004,6 @@
     <script>
         // Simple animations and interactions
         document.addEventListener('DOMContentLoaded', function() {
-            // Add click handlers to buttons
-            document.querySelectorAll('.btn-primary').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    alert('Welcome to 24 Hour Forex Investment! In a real website, this would redirect to our investment platform.');
-                });
-            });
-
             // Animate cards on scroll
             const observer = new IntersectionObserver(function(entries) {
                 entries.forEach(entry => {
